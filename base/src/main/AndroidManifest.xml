@@ -9,6 +9,11 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/MyAppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.car.application"
+            android:resource="@xml/automotive_app_desc" />
+
         <!-- Main activity for music browsing on phone -->
         <activity
             android:name=".MusicPlayerActivity"
